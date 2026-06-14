@@ -375,6 +375,13 @@ a:hover {
   padding: 96px 0;
 }
 
+.submission-anchor {
+  width: min(var(--max), calc(100% - 48px));
+  height: 1px;
+  margin: 0 auto;
+  scroll-margin-top: 88px;
+}
+
 .section-alt {
   width: 100%;
   max-width: none;
